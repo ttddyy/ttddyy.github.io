@@ -6,11 +6,12 @@
 name: Tadaya Tsuyukubo
 
 # Short bio or description (displayed in the header)
-description: Tadaya's Blog
+description: Tadaya's Blog (@ttddyy)
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 #avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
-avatar: https://avatars.githubusercontent.com/u/459116
+#avatar: https://avatars.githubusercontent.com/u/459116
+avatar: https://raw.githubusercontent.com/ttddyy/ttddyy.github.io/master/images/logo.png
 
 #
 # Flags below are optional
@@ -22,12 +23,12 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: ttddyy
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
+  twitter: ttddyy
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
