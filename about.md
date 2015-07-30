@@ -9,6 +9,7 @@ I enjoy writing clean code. :)
 ### Old Blogs
 
 - [http://tadtech.blogspot.com/](http://tadtech.blogspot.com/)
+- [https://tadaya.wordpress.com/](https://tadaya.wordpress.com/)
 
 ### Open Source Projects
 
