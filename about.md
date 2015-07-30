@@ -4,12 +4,20 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I enjoy writing clean code. :)
 
-### More Information
+### My Old Blogs
 
-A place to include any other types of information that you'd like to include about yourself.
+- [http://tadtech.blogspot.com/](http://tadtech.blogspot.com/)
+
+### Open Source
+
+- [datasource-proxy](https://github.com/ttddyy/datasource-proxy)
+- [Evernote Rest Webapp](https://github.com/ttddyy/evernote-rest-webapp)
+- [Spring Social Evernote](https://github.com/ttddyy/spring-social-evernote)
+- [Spring Social SlideShare](https://github.com/ttddyy/spring-social-slideshare)
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+- [@ttddyy](https://twitter.com/ttddyy)
