@@ -6,11 +6,11 @@ permalink: /about/
 
 I enjoy writing clean code. :)
 
-### My Old Blogs
+### Old Blogs
 
 - [http://tadtech.blogspot.com/](http://tadtech.blogspot.com/)
 
-### Open Source
+### Open Source Projects
 
 - [datasource-proxy](https://github.com/ttddyy/datasource-proxy)
 - [Evernote Rest Webapp](https://github.com/ttddyy/evernote-rest-webapp)
