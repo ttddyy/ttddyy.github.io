@@ -56,6 +56,10 @@ Schedulers.onScheduleHook("mdc", runnable -> {
 
 ## Spring Boot 2.1 (reactor 3.2)
 
+_(Update 2019-12-03:  
+[Sergei(@bsideup) pointed me `Schedulers.addExecutorServiceDecorator`.](https://twitter.com/bsideup/status/1201779871803944960)  
+Since that is less intrusive to operators, I'll update the code with that version soon.)_
+
 We can use `Hooks.onEachOperator` to pass around the MDC values via subscriber context.
 
 Here is a sample implementation:
