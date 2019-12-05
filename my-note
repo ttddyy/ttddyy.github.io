@@ -1,0 +1,6 @@
+local development
+
+bundle exec jekyll serve
+
+
+To enable disqus: add `JEKYLL_ENV=production`
