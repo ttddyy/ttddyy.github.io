@@ -4,15 +4,25 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I enjoy writing **clean code**. :)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+### Open Source Projects
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+- [datasource-proxy](https://github.com/ttddyy/datasource-proxy)
+- [R2DBC Proxy](https://github.com/r2dbc/r2dbc-proxy)
+
+#### Old Projects
+- [datasource-assert](https://github.com/ttddyy/datasource-assert) (may update...)
+- [Evernote Rest Webapp](https://github.com/ttddyy/evernote-rest-webapp)
+- [Spring Social Evernote](https://github.com/ttddyy/spring-social-evernote)
+- [Spring Social SlideShare](https://github.com/ttddyy/spring-social-slideshare)
+
+### Old Blogs
+
+- [http://tadtech.blogspot.com/](http://tadtech.blogspot.com/)
+- [https://tadaya.wordpress.com/](https://tadaya.wordpress.com/)
 
 
-[jekyll-organization]: https://github.com/jekyll
+### Contact me
+
+- [@ttddyy](https://twitter.com/ttddyy)

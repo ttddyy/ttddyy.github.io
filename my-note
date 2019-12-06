@@ -1,6 +1,26 @@
-local development
+# local development
 
-bundle exec jekyll serve
+## Initial Setup
 
+```
+# Create Gemfile
+> bundle init
+
+# Edit Gemfile
+> vi Gemfile
+# Add followings
+gem 'jekyll', '3.8.5'
+gem "github-pages", group: :jekyll_plugins
+
+# Install bundles
+> bundle install --path vendor/bundle
+```
+
+
+## Dev
+
+```
+> bundle exec jekyll serve
+```
 
 To enable disqus: add `JEKYLL_ENV=production`
