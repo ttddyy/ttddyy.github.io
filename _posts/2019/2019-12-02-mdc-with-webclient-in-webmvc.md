@@ -35,7 +35,7 @@ ExchangeFilterFunction function = (request, next) -> {
 WebClient webClient = WebClient.builder().filter(function).build();
 ```
 
-Now, the MDC values are available to WebClient's execution chain. The only thing left is to use `Scheduler.onScheduleHook` to decorate the execution by the scheduler.
+Now, the MDC values are available in WebClient's execution chain. The only thing left is to use `Scheduler.onScheduleHook` to decorate the execution by the scheduler.
 
 ```java
 Schedulers.onScheduleHook("mdc", runnable -> {
@@ -57,7 +57,7 @@ Schedulers.onScheduleHook("mdc", runnable -> {
 ## Spring Boot 2.1 (reactor 3.2)
 
 _(Update 2019-12-03:  
-[Sergei(@bsideup) pointed me `Schedulers.addExecutorServiceDecorator`.](https://twitter.com/bsideup/status/1201779871803944960)  
+[Sergei(@bsideup) pointed me `Schedulers.addExecutorServiceDecorator` API](https://twitter.com/bsideup/status/1201779871803944960).
 Added `SchedulerMdcDecorator` and `SchedulerMdcProxyDecorator` implementation.)_
 
 We can use `Schedulers.addExecutorServiceDecorator` to return wrapped `ScheduledExecutorService` that propagates MDC values to the new thread.
@@ -384,7 +384,8 @@ public class ReactorMdcSupport {
 
       this.delegate.onNext(t);
 
-      MDC.clear();
+      // Do not clear MDC values here, in order to keep the MDC values on the thread
+      // that has subscribed the publisher (original thread).
     }
 
     @Override
