@@ -24,7 +24,7 @@ ExchangeFilterFunction function = (request, next) -> {
   // here runs on main(request's) thread
   Map<String, String> map = MDC.getCopyOfContextMap();
   return next.exchange(request)
-          .doOnRequest(value -> {
+          .doOnNext(value -> {
             // here runs on reactor's thread
             if (map != null) {
               MDC.setContextMap(map);
